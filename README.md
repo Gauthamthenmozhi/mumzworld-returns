@@ -186,14 +186,16 @@ Llama 3.3 70B via Groq (free). Strong Arabic support, follows JSON instructions 
 
 ## Time Log
 
-- Problem selection and architecture planning — 30 mins
+- Problem selection + architecture planning — 30 mins
 - classifier.py + system prompt iteration — 60 mins
 - app.py + Pydantic schema + error handling — 30 mins
-- evals.py + running 12 test cases — 45 mins
-- React frontend + EN/AR toggle + styling — 60 mins
-- API key debugging (OpenRouter → Groq switch) — 45 mins
-- README + EVALS.md + TRADEOFFS.md — 30 mins
-- **Total: ~5.5 hours**
+- evals.py + 12 test cases + debugging — 90 mins (API key issues took longer than expected)
+- React frontend + styling + README + docs — 90 mins
+- **Total: ~5.5 hours. Went slightly over due to OpenRouter rate limits — switched to Groq mid-way, which added ~45 mins of unplanned debugging.**
+
+## Video Walkthrough
+
+https://www.loom.com/share/0a07a3f8fe3747f298a2cf57d6fac0f0
 
 ---
 
